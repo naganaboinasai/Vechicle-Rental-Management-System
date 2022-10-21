@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>EP PROJECT</title>
+  <link rel="stylesheet" href="sai1.css">
+  <!---we had linked our css file------------->
+</head>
+
+<body>
+  <div class="full-page">
+    <div class="navbar">
+      <div>
+        <a href="http://www.google.com">
+                       
+        </a>
+        <!---this if for the logo you can place 
+                                   a image here--------->
+      </div>
+    
+    
+      <nav>
+    <div class="row">
+    <div class="co2-">
+      <h1>RENT IT OUT</h1>
+      <p>HAVE A SAFE DRIVE </p>
+      
+    </div>
+        <ul id='MenuItems'>
+          <li><a href=' # '>Home</a></li>
+          <li><a href=' # '>About Us</a></li>
+          <li><a href=' # '>Take Survey</a></li>
+          <li><a href=' # '>Create Survey</a></li>
+          <li><button class='loginbtn' onclick="document.getElementById('login-form').style.display='block' "
+              style="width:auto;">Login</button>
+          </li>
+        </ul>
+      </nav>
+    
+      <!------navigation bar is finished lets run and 
+                        see--------->
+      <!-----now let us make the styling for the 
+                        navigation bar----------------->
+    </div>
+    <div id='login-form' class='login-page'>
+      <!---creating the form-box--->
+      <div class="form-box">
+        <div class='button-box'>
+          <div id='btn'></div>
+          <button type='button' onclick='login( )' class='toggle-btn'>Log In</button>
+          <button type='button' onclick='register( )' class='toggle-btn'>Register</button>
+        </div>
+        
+        
+        
+        <!-----creating the login form---->
+        
+        
+        
+        <form id='login' class='input-group-login' action="login.jsp">
+          <input type='text' class='input-field' placeholder='Email Id' name="email" required>
+          <br>
+          <input type='password' class='input-field' placeholder='Email password' name="password" required>
+          <br>
+          <input type='checkbox' class='check-box'><span>Remember Password</span>
+          <button type='submit' class='submit-btn'>Log in</button>
+
+        </form>
+        
+        
+        
+        <!creating the registration form----->
+        
+        
+        
+          <form id='register' class='input-group-register' action="registration.jsp">
+            <input type='text' class='input-field' placeholder='First Name' name="fname" required>
+            <input type='text' class='input-field' placeholder='Last Name' name="lname" required>
+            <input type='email' class='input-field' placeholder='Email Id' name="email" required>
+            <input type='password' class='input-field' placeholder='Enter  password' name="password" required>
+            <input type='text' class='input-field' placeholder='mobile number' name="mob" required>
+
+            <input type='checkbox' class='check-box'>
+            <span>I agree to the terms and conditions</span>
+            <button type='submit' class='submit-btn'>Register</button>
+          </form>
+      </div>
+    </div>
+  </div>
+  <!--------the first script code is for login and
+      registration form to move correctly--------->
+  <script>
+    var x = document.getElementById('login');
+    var y = document.getElementById('register');
+    var z = document.getElementById('btn');
+    function register() {
+      x.style.left = '-400px';
+      y.style.left = '50px';
+      z.style.left = '110px';
+    }
+    function login() {
+      x.style.left = '50px';
+      y.style.left = '450px';
+      z.style.left = '0px';
+    }
+  </script>
+  <!----this code is for the when you click out the 
+         login or registration page the form -box disappears-
+         -->
+   <script>
+    var modal = document.getElementById('login-form');
+    window.onclick = function (event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,477 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.full-page{
+     height: 100%;
+     width: 100%;
+     background-image:url(https://wallpapercave.com/wp/wp2834123.jpg);
+     background-position: center;
+     background-size: cover;
+     position: absolute;
+/*    this block of code is for the setting the
+background image and position of the image etc*/
+}
+.navbar
+{
+         display: flex;
+         align-items: center;
+         padding: 20px;
+         padding-left: 50px;
+         padding-right: 30px;
+         padding-top: 50px;
+/*     this if for setting the dimensions of the
+navigation bar*/
+}
+nav
+{
+       flex: 1;
+       text-align: right;
+}
+nav ul
+{
+        display: inline-block;
+        list-style: none;
+}
+nav ul li
+{
+        display: inline-block;
+        margin-right: 70px;
+/* this blocks are for styling the list elements*/
+}
+nav ul li a
+{
+         text-decoration: none;
+         font-size:20px;
+         color: white;
+         font-family: sans-serif;
+}
+nav ul li button
+{
+         font-size:20px;
+         color: white;
+         outline: none;
+         border: none;
+         background: transparent;
+         cursor: pointer;
+         font-family: sans-serif;
+}
+nav ul li button:hover
+{
+        color: aqua;
+}
+nav ul li a:hover
+{
+        color: aqua;
+}
+a
+{
+      text-decoration: none;
+      color: palevioletred;
+      font-size: 28px;
+}
+/* <!---------now let us style for the form page---------> */
+#login-form
+{
+          display: none;
+/*      this block if for hiding the form  */
+}
+.form-box
+{
+          width:380px;
+          height:420px;
+          position:relative;
+          margin:2%  auto;
+          background:rgba(0,0,0,0.3);
+          padding:10px;
+          overflow: hidden;
+/*   creating the form with width height and etc */
+}
+.button-box
+{
+          width:220px;
+          height:35px;
+          position:relative;
+          box-shadow: 0  0  20px  9px  #ff61241f;
+          border-radius: 30px;
+}
+.toggle-btn
+{
+         padding:10px  30px;
+         cursor:pointer;
+         background:transparent;
+         border:0;                                                /padding is the space between its content and its border/
+         outline: none;                                        /toggle button means here login and registration button/
+         position: relative;
+}
+#btn
+{
+      top: 0;
+      left: 0;
+      position:absolute;
+      width: 110px;
+      height: 100%;
+      background: #F3C693;
+      border-radius: 30px;
+      transition:   .5s;
+}
+.input-group-login
+{
+          top: 150px;
+          position:absolute;
+          width:280px;
+          transition: .5s;
+}
+.input-group-register
+{
+          top: 60px;
+          position:absolute;
+          width:280px;
+          transition: .5s;
+}
+.input-field
+{
+      width: 100%;
+      padding:10px  0;
+      margin:5px  0;
+      border-top:0;
+      border-bottom: 1px solid #999;
+      outline:none;
+      background: transparent;
+}
+.submit-btn
+{
+         width: 85%;
+         padding: 10px  30px;
+         cursor: pointer;
+         display: block;
+         margin: auto;
+         background: #F3C693;
+         border: 0;
+         outline: none;
+        border-radius: 30px;
+}
+.check-box
+{
+         margin: 30px  10px  34px  0;
+}
+span
+{
+          color:#777;
+          font-size:12px;                         /span means here Remember Password ansd I agree to the terms and conditions/
+          bottom:68px;
+          position:absolute;
+}
+#login
+{
+       left:50px;
+}
+#login input
+{
+       color:white;
+       font-size:15;
+}
+#register
+{
+       left:450px;
+}
+#register input
+{
+         color:white;
+         font-size: 15;
+}
+.col-4{
+  flex-basis: 23%;
+  padding: 10px;
+  min-width: 200px;
+  margin-bottom: 50px;
+
+}
+.col-4 img {
+  width: 100%
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+nav{
+  flex: 1;
+  text-align: right;
+}
+nav ul{
+  display: inline-block;
+  list-style-type: none;
+}
+nav ul li{
+  display: inline-block;
+  margin-right: 20px; 
+}
+a{
+  text-decoration:none;
+  color: #555;
+}
+p{
+  color: #555;
+}
+.container{
+  max-width: 1300px;
+  margin: auto;
+  background-image:url(https://wallpapercave.com/wp/wp2834123.jpg);
+  background-position: center;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.form-box{
+  width: 380px;
+  height: 480px;
+  position: center;
+  margin: 6% auto;
+  background: #FFB6C1;
+  padding: 5px;
+}
+.button-box{
+  width: 220px;
+  margin: 35px auto;
+  position: relative;
+  box-shadow: 0 0 20px 9px #ff61241f;
+  border-radius: 30px;
+}
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Poppins:400,500&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+.bg-img{
+  background: url('images/image.jpg');
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.bg-img:after{
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0,0,0,0.7);
+}
+.content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 999;
+  text-align: center;
+  padding: 60px 32px;
+  width: 370px;
+  transform: translate(-50%,-50%);
+  background: rgba(255,255,255,0.04);
+  box-shadow: -1px 4px 28px 0px rgba(0,0,0,0.75);
+}
+.content header{
+  color: white;
+  font-size: 33px;
+  font-weight: 600;
+  margin: 0 0 35px 0;
+  font-family: 'Montserrat',sans-serif;
+}
+.field{
+  position: relative;
+  height: 45px;
+  width: 100%;
+  display: flex;
+  background: rgba(255,255,255,0.94);
+}
+.field span{
+  color: #222;
+  width: 40px;
+  line-height: 45px;
+}
+.field input{
+  height: 100%;
+  width: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #222;
+  font-size: 16px;
+  font-family: 'Poppins',sans-serif;
+}
+.space{
+  margin-top: 16px;
+}
+.show{
+  position: absolute;
+  right: 13px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #222;
+  display: none;
+  cursor: pointer;
+  font-family: 'Montserrat',sans-serif;
+}
+.pass-key:valid ~ .show{
+  display: block;
+}
+.pass{
+  text-align: left;
+  margin: 10px 0;
+}
+.pass a{
+  color: white;
+  text-decoration: none;
+  font-family: 'Poppins',sans-serif;
+}
+.pass:hover a{
+  text-decoration: underline;
+}
+.field input[type="submit"]{
+  background: #3498db;
+  border: 1px solid #2691d9;
+  color: white;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: 'Montserrat',sans-serif;
+}
+.field input[type="submit"]:hover{
+  background: #2691d9;
+}
+.login{
+  color: white;
+  margin: 20px 0;
+  font-family: 'Poppins',sans-serif;
+}
+.links{
+  display: flex;
+  cursor: pointer;
+  color: white;
+  margin: 0 0 20px 0;
+}
+.facebook,.instagram{
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  margin-left: 10px;
+}
+.facebook{
+  margin-left: 0;
+  background: #4267B2;
+  border: 1px solid #3e61a8;
+}
+.instagram{
+  background: #E1306C;
+  border: 1px solid #df2060;
+}
+.facebook:hover{
+  background: #3e61a8;
+}
+.instagram:hover{
+  background: #df2060;
+}
+.links i{
+  font-size: 17px;
+}
+i span{
+  margin-left: 8px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 16px;
+  font-family: 'Poppins',sans-serif;
+}
+.signup{
+  font-size: 15px;
+  color: white;
+  font-family: 'Poppins',sans-serif;
+}
+.signup a{
+  color: #3498db;
+  text-decoration: none;
+}
+.signup a:hover{
+  text-decoration: underline;
+}
+.row{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.col-2{
+  flex-basis: 50%;
+  min-width: 300px;
+}
+.col-2 img{
+  max-width: 100%;
+  padding: 50px 0;
+}
+.col-2 h1{
+  font-size: 50px;
+  line-height: 60px;
+  margin: 25px 0;
+}
+.book{
+  display: inline-block;
+  background: #ff523b;
+  color: #fff;
+  padding: 8px 30px;
+  margin: 30px 0;
+  border-radius: 30px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+.small-container{
+  max-width: 1080px;
+  margin: auto;
+  padding-left: 25px;
+
+  padding-right: 25px;
+
+}
+.col-4{
+  flex-basis: 23%;
+  padding: 10px;
+  min-width: 200px;
+  margin-bottom: 50px;
+
+}
+.col-4 img {
+  width: 100%
+}
