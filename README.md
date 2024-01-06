@@ -1,5 +1,5 @@
 # Vechicle-Rental-Management-System
-Using:-Java ,Jdbc,Servlets,Jsp ,Mysql,Html,Css,Bootstrap
+Using:-Html, Css,BootStrap, MySQL, Hibernate and  SpringBoot
 
 ![3](https://user-images.githubusercontent.com/61532696/197194855-b15a0042-cbb0-400d-9b91-ca5dc8679ba9.png)
 ![2](https://user-images.githubusercontent.com/61532696/197194868-6fb8bbc8-92eb-495a-9599-6fdf96ccbdd4.png)
